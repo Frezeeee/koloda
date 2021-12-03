@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+body{
+    background-color: #5884B8;
+    color: white;
+}
+.container{
+    max-width: 80vw;
+    margin: 0 auto;
+}
+.header{
+    &__df{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        gap: 87px;
+        font-weight:700;
+        margin-bottom: 56px;
+    }
+    &__logo{
+        text-align: center;
+    }
+    &__pa{
+        color: #FDD835;
+        transition: all 0.3s;
+    }
+    &__pa:hover{
+        text-shadow: 0px 0px 20px #ffffff ;
+        transition: all 0.3s;
+    }
+    &__p{
+        transition: all 0.3s;
+    }
+    &__p:hover{
+        text-shadow: 0px 0px 20px #FDD835 ;
+        transition: all 0.3s;
+    }
+    &__pac{
+        transition: all 0.3s;
+    }
+    &__pac:hover{
+        text-shadow: 0px 0px 20px #FDD835 ;
+        transition: all 0.3s;
+    }
+}
+.section{
+    &__df{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__text{
+        margin-right: 55px;
+    }
+    &__img {
+        height: 500px;
+    }
+    &__p{
+        color: #B3E5FC;
+        font-weight: 700;
+        font-size: 27px;
+        transition: all 0.3s;
+    }
+    &__p:hover{
+        text-shadow: 0px 0px 20px #ffffff ;
+        transition: all 0.3s;
+    }
+    h1{
+        font-size: 65px;
+        margin-bottom: 15.65px;
+        transition: all 0.3s;
+    }
+    h1:hover{
+        text-shadow: 0px 0px 20px #B3E5FC ;
+        transition: all 0.3s;
+    }
+    &__pa{
+        max-width: 500px;
+        font-size: 27px;
+        margin-bottom: 66px;
+    }   
+    button{
+        font-weight: 700;
+        color: white;
+        background-color: #29DFDF;
+        border: 0;
+        font-size: 19px;
+        padding: 20px 73px;
+        transition: all 0.3s;
+    }
+    button:hover{
+        box-shadow: 0px 0px 20px #28CFCF ;
+        transition: all 0.3s;
+
+    }
+
+
+}
